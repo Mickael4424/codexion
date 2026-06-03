@@ -6,7 +6,7 @@
 /*   By: mbouyer <mbouyer@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/05/19 19:33:33 by mickael           #+#    #+#             */
-/*   Updated: 2026/06/03 09:16:39 by mbouyer          ###   ########.fr       */
+/*   Updated: 2026/06/03 09:20:26 by mbouyer          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -34,7 +34,6 @@ int	main(int ac, char **av)
 		sim_cleaning(&r);
 		return (1);
 	}
-	printf("hello world");
 	sim_run_join(&r);
 	sim_cleaning(&r);
 	return (0);
